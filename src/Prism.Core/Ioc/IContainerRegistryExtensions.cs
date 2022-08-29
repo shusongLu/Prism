@@ -151,7 +151,7 @@ namespace Prism.Ioc
         }
 
         /// <summary>
-        /// Registers a Singleton with the given <see cref="Type" />.
+        /// Registers a Transient with the given <see cref="Type" />.
         /// </summary>
         /// <param name="containerRegistry">The instance of the <see cref="IContainerRegistry" /></param>
         /// <typeparam name="T">The concrete <see cref="Type" /></typeparam>
